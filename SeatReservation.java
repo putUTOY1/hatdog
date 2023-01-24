@@ -1,6 +1,5 @@
 import java.util.*;
-
-public class SeatReservation {
+class SeatReservation {
 	static int row = 0, column=0;
 	static int chz;
 	static int chz2;
@@ -464,13 +463,13 @@ public class SeatReservation {
 					delay();
 				}else if(chz2 == 2) {
 					delay();
-					dspseat();
+					dspseate1();
 					delay();
 					rmvsrvste1();
 					delay();
 				}else if(chz2 == 3) {
 					delay();
-					dspseat();
+					dspseate2();
 					delay();
 					rmvsrvste2();
 					delay();
